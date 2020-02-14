@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">S1</th></tr>
+<tr><td><a href="#t0">manger</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">170,959</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">department</a></td><td class="num">6</td><td class="num">0</td><td class="num attn">1</td><td class="num">200,844</td><td></td><td></td></tr>
+<tr><td><a href="#t2">person</a></td><td class="num">6</td><td class="num">0</td><td class="num attn">1</td><td class="num">332,863</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">changpin-person</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">200,793</td><td></td><td></td></tr>
+<tr><td><a href="#t4">reportcenter</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">63,922</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">22</th><th class="num">0</th><th class="num attn">2</th><th class="num">969,381</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">S1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">manger &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">pms.test.manger.ChangePasswordTest</td><td><a href="#m0">ChangePassword_success</a></td><td rowspan="1">1581680808592</td><td rowspan="1">62279</td></tr><tr class="passedodd"><td rowspan="2">pms.test.manger.LoginTest</td><td><a href="#m1">login_fail</a></td><td rowspan="1">1581680881034</td><td rowspan="1">17390</td></tr><tr class="passedodd"><td><a href="#m2">login_success</a></td><td rowspan="1">1581680898425</td><td rowspan="1">16822</td></tr><tr class="passedeven"><td rowspan="1">pms.test.manger.LogoutTest</td><td><a href="#m3">logout_success</a></td><td rowspan="1">1581680925449</td><td rowspan="1">24950</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">department &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">pms.test.department.AllowanceTest</td><td><a href="#m4">addAllowance</a></td><td rowspan="1">1581681045966</td><td rowspan="1">14293</td></tr><tr><th colspan="4">department &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">pms.test.department.AddDepartmentTest</td><td><a href="#m5">addDepartment</a></td><td rowspan="1">1581680982599</td><td rowspan="1">32474</td></tr><tr class="passedodd"><td rowspan="1">pms.test.department.AllowanceTest</td><td><a href="#m6">deleteAllowance</a></td><td rowspan="1">1581681060685</td><td rowspan="1">3336</td></tr><tr class="passedeven"><td rowspan="1">pms.test.department.DeleteDepartmentTest</td><td><a href="#m7">deleteDepartment</a></td><td rowspan="1">1581681139305</td><td rowspan="1">13348</td></tr><tr class="passedodd"><td rowspan="3">pms.test.department.SearchDepartmentTest</td><td><a href="#m8">searchtest</a></td><td rowspan="3">1581681094786</td><td rowspan="3">7293</td></tr><tr class="passedodd"><td><a href="#m9">searchtest</a></td></tr><tr class="passedodd"><td><a href="#m10">searchtest</a></td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">person &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">pms.test.person.AddPersonTest</td><td><a href="#m11">addPerson</a></td><td rowspan="1">1581681184434</td><td rowspan="1">14437</td></tr><tr><th colspan="4">person &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">pms.test.person.DeletePersonTest</td><td><a href="#m12">deletePerson</a></td><td rowspan="1">1581681454884</td><td rowspan="1">31713</td></tr><tr class="passedodd"><td rowspan="1">pms.test.person.EditKaoheTest</td><td><a href="#m13">addKaohe</a></td><td rowspan="1">1581681230303</td><td rowspan="1">28926</td></tr><tr class="passedeven"><td rowspan="1">pms.test.person.EditStudyTest</td><td><a href="#m14">addXLXX</a></td><td rowspan="1">1581681290143</td><td rowspan="1">47841</td></tr><tr class="passedodd"><td rowspan="1">pms.test.person.SearchDepartmentTest</td><td><a href="#m15">searchDepart</a></td><td rowspan="1">1581681416816</td><td rowspan="1">7268</td></tr><tr class="passedeven"><td rowspan="2">pms.test.person.SearchPersonTest</td><td><a href="#m16">searchPersonBySFZ</a></td><td rowspan="1">1581681369008</td><td rowspan="1">10569</td></tr><tr class="passedeven"><td><a href="#m17">searchPersonByXM</a></td><td rowspan="1">1581681379578</td><td rowspan="1">6418</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">changpin-person &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">pms.test.changpinperson.AddcpPersonTest</td><td><a href="#m18">addPerson_CP</a></td><td rowspan="1">1581681519154</td><td rowspan="1">35652</td></tr><tr class="passedodd"><td rowspan="1">pms.test.changpinperson.DeletecpPersonTest</td><td><a href="#m19">deletePerson_CP</a></td><td rowspan="1">1581681675771</td><td rowspan="1">13557</td></tr><tr class="passedeven"><td rowspan="1">pms.test.changpinperson.SearchcpDepartTest</td><td><a href="#m20">searchDepart</a></td><td rowspan="1">1581681587638</td><td rowspan="1">7219</td></tr><tr class="passedodd"><td rowspan="2">pms.test.changpinperson.SearchcpPersonTest</td><td><a href="#m21">SearchBySFZ</a></td><td rowspan="1">1581681627011</td><td rowspan="1">10644</td></tr><tr class="passedodd"><td><a href="#m22">SearchByXM</a></td><td rowspan="1">1581681637656</td><td rowspan="1">6458</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">reportcenter &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">pms.test.reportcenter.DownloadTableTest</td><td><a href="#m23">downloadTable</a></td><td rowspan="1">1581681726866</td><td rowspan="1">33130</td></tr></tbody>
+</table>
+<h2>manger</h2><h3 id="m0">pms.test.manger.ChangePasswordTest#ChangePassword_success</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">pms.test.manger.LoginTest#login_fail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">pms.test.manger.LoginTest#login_success</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">pms.test.manger.LogoutTest#logout_success</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>department</h2><h3 id="m4">pms.test.department.AllowanceTest#addAllowance</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchFrameException: No frame element found by name or id layui-layer-iframe1
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;LAPTOP-SLURSDT2&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:925)
+	at com.pms.core.WebDriverEngine.enterFrame(WebDriverEngine.java:59)
+	at pms.test.department.AllowanceTest.addAllowance(Unknown Source)
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">pms.test.department.AddDepartmentTest#addDepartment</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">pms.test.department.AllowanceTest#deleteAllowance</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">pms.test.department.DeleteDepartmentTest#deleteDepartment</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">pms.test.department.SearchDepartmentTest#searchtest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>城建</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">pms.test.department.SearchDepartmentTest#searchtest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>*城建</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">pms.test.department.SearchDepartmentTest#searchtest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>城 建</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>person</h2><h3 id="m11">pms.test.person.AddPersonTest#addPerson</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:787)
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:221)
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:418)
+	at org.openqa.selenium.interactions.Actions.doubleClick(Actions.java:363)
+	at com.pms.core.WebDriverEngine.doubleclick(WebDriverEngine.java:93)
+	at pms.test.person.AddPersonTest.addPerson(Unknown Source)
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">pms.test.person.DeletePersonTest#deletePerson</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">pms.test.person.EditKaoheTest#addKaohe</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">pms.test.person.EditStudyTest#addXLXX</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">pms.test.person.SearchDepartmentTest#searchDepart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">pms.test.person.SearchPersonTest#searchPersonBySFZ</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">pms.test.person.SearchPersonTest#searchPersonByXM</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>changpin-person</h2><h3 id="m18">pms.test.changpinperson.AddcpPersonTest#addPerson_CP</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">pms.test.changpinperson.DeletecpPersonTest#deletePerson_CP</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">pms.test.changpinperson.SearchcpDepartTest#searchDepart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">pms.test.changpinperson.SearchcpPersonTest#SearchBySFZ</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">pms.test.changpinperson.SearchcpPersonTest#SearchByXM</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>reportcenter</h2><h3 id="m23">pms.test.reportcenter.DownloadTableTest#downloadTable</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

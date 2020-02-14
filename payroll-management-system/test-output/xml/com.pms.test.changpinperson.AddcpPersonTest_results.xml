@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="changpin-person"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="35.669">
+  <properties />
+  
+  
+            <testcase name="addPerson_CP" time="35.669" classname="com.pms.test.changpinperson.AddcpPersonTest" />
+      
+</testsuite>

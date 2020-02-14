@@ -1,0 +1,60 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="S1" verbose="1"> 
+<listeners> 	
+	
+    <listener class-name="org.uncommons.reportng.HTMLReporter" />
+	<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	<listener class-name="com.pms.core.WebTestListener" /> 
+	<listener class-name="com.pms.core.ScreenShotListener" /> 
+</listeners>
+
+ 
+  <test name="manger" preserve-order="true">
+   <classes>
+      	<class name="pms.test.manger.ChangePasswordTest" />
+      	<class name="pms.test.manger.LoginTest" />
+      	<class name="pms.test.manger.LogoutTest" />
+     </classes>
+     
+
+  </test>
+  
+  
+  <test name="department" preserve-order="true">
+    <classes>
+       <class name="pms.test.department.AddDepartmentTest" />
+       <class name="pms.test.department.AllowanceTest" />
+       <class name="pms.test.department.SearchDepartmentTest" />
+       <class name="pms.test.department.DeleteDepartmentTest" />
+    </classes>   
+  </test>
+
+  <test name="person" preserve-order="true">
+  	<classes>
+  		<class name="pms.test.person.AddPersonTest" /> 		
+  		<class name="pms.test.person.EditKaoheTest" />
+  		<class name="pms.test.person.EditStudyTest" />
+  		<class name="pms.test.person.SearchPersonTest" />
+  		<class name="pms.test.person.SearchDepartmentTest" />
+  		<class name="pms.test.person.DeletePersonTest" />
+  	</classes>
+  		
+  </test>
+
+  <test name="changpin-person" preserve-order="true">
+  	<classes>
+  		<class name="pms.test.changpinperson.AddcpPersonTest" /> 		
+  		<class name="pms.test.changpinperson.SearchcpDepartTest" />
+  		<class name="pms.test.changpinperson.SearchcpPersonTest" />
+  		<class name="pms.test.changpinperson.DeletecpPersonTest" />
+  	</classes>
+  </test>
+  
+  <test name="reportcenter">
+  	<classes>
+  		<class name="pms.test.reportcenter.DownloadTableTest" />
+  	</classes>
+  </test>
+ 
+</suite>

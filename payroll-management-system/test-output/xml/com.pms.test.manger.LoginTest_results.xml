@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="manger"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="34.161">
+  <properties />
+  
+  
+            <testcase name="login_fail" time="17.581" classname="com.pms.test.manger.LoginTest" />
+                <testcase name="login_success" time="16.580" classname="com.pms.test.manger.LoginTest" />
+      
+</testsuite>

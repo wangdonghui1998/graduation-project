@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="changpin-person"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="17.031">
+  <properties />
+  
+  
+            <testcase name="SearchByXM" time="6.398" classname="com.pms.test.changpinperson.SearchcpPersonTest" />
+                <testcase name="SearchBySFZ" time="10.633" classname="com.pms.test.changpinperson.SearchcpPersonTest" />
+      
+</testsuite>

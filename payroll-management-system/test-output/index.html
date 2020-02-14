@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-S1" class="navigator-link">
+              <span class="suite-name border-failed">S1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-S1" class="navigator-link ">
+                    <span>D:\graduation-project\test\payroll-management-system\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-S1" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-S1" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-S1" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-S1" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-S1" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-S1" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods, 2 failed,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-S1" class="hide-methods failed suite-S1"> (hide)</a> <!-- hide-methods failed suite-S1 -->
+                      <a href="#" panel-name="suite-S1" class="show-methods failed suite-S1"> (show)</a> <!-- show-methods failed suite-S1 -->
+                    </span>
+                    <div class="method-list-content failed suite-S1">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-S1" title="pms.test.department.AllowanceTest" class="method navigator-link" hash-for-method="addAllowance">addAllowance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-S1" title="pms.test.person.AddPersonTest" class="method navigator-link" hash-for-method="addPerson">addPerson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-S1 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-S1" class="hide-methods passed suite-S1"> (hide)</a> <!-- hide-methods passed suite-S1 -->
+                      <a href="#" panel-name="suite-S1" class="show-methods passed suite-S1"> (show)</a> <!-- show-methods passed suite-S1 -->
+                    </span>
+                    <div class="method-list-content passed suite-S1">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-S1" title="pms.test.manger.ChangePasswordTest" class="method navigator-link" hash-for-method="ChangePassword_success">ChangePassword_success</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-S1" title="pms.test.changpinperson.SearchcpPersonTest" class="method navigator-link" hash-for-method="SearchBySFZ">SearchBySFZ</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-S1" title="pms.test.changpinperson.SearchcpPersonTest" class="method navigator-link" hash-for-method="SearchByXM">SearchByXM</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-S1" title="pms.test.department.AddDepartmentTest" class="method navigator-link" hash-for-method="addDepartment">addDepartment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-S1" title="pms.test.person.EditKaoheTest" class="method navigator-link" hash-for-method="addKaohe">addKaohe</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-S1" title="pms.test.changpinperson.AddcpPersonTest" class="method navigator-link" hash-for-method="addPerson_CP">addPerson_CP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-S1" title="pms.test.person.EditStudyTest" class="method navigator-link" hash-for-method="addXLXX">addXLXX</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-S1" title="pms.test.department.AllowanceTest" class="method navigator-link" hash-for-method="deleteAllowance">deleteAllowance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-S1" title="pms.test.department.DeleteDepartmentTest" class="method navigator-link" hash-for-method="deleteDepartment">deleteDepartment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-S1" title="pms.test.person.DeletePersonTest" class="method navigator-link" hash-for-method="deletePerson">deletePerson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-S1" title="pms.test.changpinperson.DeletecpPersonTest" class="method navigator-link" hash-for-method="deletePerson_CP">deletePerson_CP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-S1" title="pms.test.reportcenter.DownloadTableTest" class="method navigator-link" hash-for-method="downloadTable">downloadTable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-S1" title="pms.test.manger.LoginTest" class="method navigator-link" hash-for-method="login_fail">login_fail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-S1" title="pms.test.manger.LoginTest" class="method navigator-link" hash-for-method="login_success">login_success</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-S1" title="pms.test.manger.LogoutTest" class="method navigator-link" hash-for-method="logout_success">logout_success</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-S1" title="pms.test.person.SearchDepartmentTest" class="method navigator-link" hash-for-method="searchDepart">searchDepart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-S1" title="pms.test.changpinperson.SearchcpDepartTest" class="method navigator-link" hash-for-method="searchDepart">searchDepart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-S1" title="pms.test.person.SearchPersonTest" class="method navigator-link" hash-for-method="searchPersonBySFZ">searchPersonBySFZ</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-S1" title="pms.test.person.SearchPersonTest" class="method navigator-link" hash-for-method="searchPersonByXM">searchPersonByXM</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-S1" title="pms.test.department.SearchDepartmentTest" class="method navigator-link" hash-for-method="searchtest(城建)">searchtest(城建)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-S1" title="pms.test.department.SearchDepartmentTest" class="method navigator-link" hash-for-method="searchtest(*城建)">searchtest(*城建)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-S1" title="pms.test.department.SearchDepartmentTest" class="method navigator-link" hash-for-method="searchtest(城 建)">searchtest(城 建)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-S1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-S1" class="panel S1">
+          <div class="suite-S1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">pms.test.person.AddPersonTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addPerson">
+                  </a> <!-- addPerson -->
+                  <span class="method-name">addPerson</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:787)
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:221)
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:418)
+	at org.openqa.selenium.interactions.Actions.doubleClick(Actions.java:363)
+	at com.pms.core.WebDriverEngine.doubleclick(WebDriverEngine.java:93)
+	at pms.test.person.AddPersonTest.addPerson(Unknown Source)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-S1-class-failed -->
+          <div class="suite-S1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">pms.test.department.AllowanceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addAllowance">
+                  </a> <!-- addAllowance -->
+                  <span class="method-name">addAllowance</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchFrameException: No frame element found by name or id layui-layer-iframe1
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;LAPTOP-SLURSDT2&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:925)
+	at com.pms.core.WebDriverEngine.enterFrame(WebDriverEngine.java:59)
+	at pms.test.department.AllowanceTest.addAllowance(Unknown Source)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-S1-class-failed -->
+          <div class="suite-S1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pms.test.manger.LogoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout_success">
+                  </a> <!-- logout_success -->
+                  <span class="method-name">logout_success</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-S1-class-passed -->
+          <div class="suite-S1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pms.test.person.SearchDepartmentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchDepart">
+                  </a> <!-- searchDepart -->
+                  <span class="method-name">searchDepart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-S1-class-passed -->
+          <div class="suite-S1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pms.test.person.DeletePersonTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletePerson">
+                  </a> <!-- deletePerson -->
+                  <span class="method-name">deletePerson</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-S1-class-passed -->
+          <div class="suite-S1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pms.test.changpinperson.AddcpPersonTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addPerson_CP">
+                  </a> <!-- addPerson_CP -->
+                  <span class="method-name">addPerson_CP</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-S1-class-passed -->
+          <div class="suite-S1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pms.test.department.SearchDepartmentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchtest(城建)">
+                  </a> <!-- searchtest(城建) -->
+                  <span class="method-name">searchtest</span>
+                  <span class="parameters">(城建)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchtest(*城建)">
+                  </a> <!-- searchtest(*城建) -->
+                  <span class="method-name">searchtest</span>
+                  <span class="parameters">(*城建)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchtest(城 建)">
+                  </a> <!-- searchtest(城 建) -->
+                  <span class="method-name">searchtest</span>
+                  <span class="parameters">(城 建)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-S1-class-passed -->
+          <div class="suite-S1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pms.test.person.SearchPersonTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchPersonBySFZ">
+                  </a> <!-- searchPersonBySFZ -->
+                  <span class="method-name">searchPersonBySFZ</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchPersonByXM">
+                  </a> <!-- searchPersonByXM -->
+                  <span class="method-name">searchPersonByXM</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-S1-class-passed -->
+          <div class="suite-S1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pms.test.person.EditStudyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addXLXX">
+                  </a> <!-- addXLXX -->
+                  <span class="method-name">addXLXX</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-S1-class-passed -->
+          <div class="suite-S1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pms.test.manger.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_fail">
+                  </a> <!-- login_fail -->
+                  <span class="method-name">login_fail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_success">
+                  </a> <!-- login_success -->
+                  <span class="method-name">login_success</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-S1-class-passed -->
+          <div class="suite-S1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pms.test.department.AllowanceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteAllowance">
+                  </a> <!-- deleteAllowance -->
+                  <span class="method-name">deleteAllowance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-S1-class-passed -->
+          <div class="suite-S1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pms.test.person.EditKaoheTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addKaohe">
+                  </a> <!-- addKaohe -->
+                  <span class="method-name">addKaohe</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-S1-class-passed -->
+          <div class="suite-S1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pms.test.department.DeleteDepartmentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteDepartment">
+                  </a> <!-- deleteDepartment -->
+                  <span class="method-name">deleteDepartment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-S1-class-passed -->
+          <div class="suite-S1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pms.test.department.AddDepartmentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addDepartment">
+                  </a> <!-- addDepartment -->
+                  <span class="method-name">addDepartment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-S1-class-passed -->
+          <div class="suite-S1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pms.test.reportcenter.DownloadTableTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="downloadTable">
+                  </a> <!-- downloadTable -->
+                  <span class="method-name">downloadTable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-S1-class-passed -->
+          <div class="suite-S1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pms.test.changpinperson.SearchcpPersonTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchBySFZ">
+                  </a> <!-- SearchBySFZ -->
+                  <span class="method-name">SearchBySFZ</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchByXM">
+                  </a> <!-- SearchByXM -->
+                  <span class="method-name">SearchByXM</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-S1-class-passed -->
+          <div class="suite-S1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pms.test.changpinperson.DeletecpPersonTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletePerson_CP">
+                  </a> <!-- deletePerson_CP -->
+                  <span class="method-name">deletePerson_CP</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-S1-class-passed -->
+          <div class="suite-S1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pms.test.manger.ChangePasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ChangePassword_success">
+                  </a> <!-- ChangePassword_success -->
+                  <span class="method-name">ChangePassword_success</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-S1-class-passed -->
+          <div class="suite-S1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pms.test.changpinperson.SearchcpDepartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchDepart">
+                  </a> <!-- searchDepart -->
+                  <span class="method-name">searchDepart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-S1-class-passed -->
+        </div> <!-- panel S1 -->
+        <div panel-name="test-xml-S1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\graduation-project\test\payroll-management-system\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;S1&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;com.pms.core.WebTestListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.pms.core.ScreenShotListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;manger&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pms.test.manger.ChangePasswordTest&quot;/&gt;
+      &lt;class name=&quot;pms.test.manger.LoginTest&quot;/&gt;
+      &lt;class name=&quot;pms.test.manger.LogoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- manger --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;department&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pms.test.department.AddDepartmentTest&quot;/&gt;
+      &lt;class name=&quot;pms.test.department.AllowanceTest&quot;/&gt;
+      &lt;class name=&quot;pms.test.department.SearchDepartmentTest&quot;/&gt;
+      &lt;class name=&quot;pms.test.department.DeleteDepartmentTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- department --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;person&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pms.test.person.AddPersonTest&quot;/&gt;
+      &lt;class name=&quot;pms.test.person.EditKaoheTest&quot;/&gt;
+      &lt;class name=&quot;pms.test.person.EditStudyTest&quot;/&gt;
+      &lt;class name=&quot;pms.test.person.SearchPersonTest&quot;/&gt;
+      &lt;class name=&quot;pms.test.person.SearchDepartmentTest&quot;/&gt;
+      &lt;class name=&quot;pms.test.person.DeletePersonTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- person --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;changpin-person&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pms.test.changpinperson.AddcpPersonTest&quot;/&gt;
+      &lt;class name=&quot;pms.test.changpinperson.SearchcpDepartTest&quot;/&gt;
+      &lt;class name=&quot;pms.test.changpinperson.SearchcpPersonTest&quot;/&gt;
+      &lt;class name=&quot;pms.test.changpinperson.DeletecpPersonTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- changpin-person --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;reportcenter&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pms.test.reportcenter.DownloadTableTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- reportcenter --&gt;
+&lt;/suite&gt; &lt;!-- S1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-S1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for S1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">manger (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">department (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">person (6 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">changpin-person (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">reportcenter (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-S1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for S1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-S1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for S1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_S1');
+function tableData_S1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ChangePassword_success')
+data.setCell(0, 2, 'pms.test.manger.ChangePasswordTest')
+data.setCell(0, 3, 62279);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addXLXX')
+data.setCell(1, 2, 'pms.test.person.EditStudyTest')
+data.setCell(1, 3, 47841);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addPerson_CP')
+data.setCell(2, 2, 'pms.test.changpinperson.AddcpPersonTest')
+data.setCell(2, 3, 35652);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'downloadTable')
+data.setCell(3, 2, 'pms.test.reportcenter.DownloadTableTest')
+data.setCell(3, 3, 33130);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addDepartment')
+data.setCell(4, 2, 'pms.test.department.AddDepartmentTest')
+data.setCell(4, 3, 32474);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'deletePerson')
+data.setCell(5, 2, 'pms.test.person.DeletePersonTest')
+data.setCell(5, 3, 31713);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'addKaohe')
+data.setCell(6, 2, 'pms.test.person.EditKaoheTest')
+data.setCell(6, 3, 28926);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'logout_success')
+data.setCell(7, 2, 'pms.test.manger.LogoutTest')
+data.setCell(7, 3, 24950);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'login_fail')
+data.setCell(8, 2, 'pms.test.manger.LoginTest')
+data.setCell(8, 3, 17390);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'login_success')
+data.setCell(9, 2, 'pms.test.manger.LoginTest')
+data.setCell(9, 3, 16822);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'addPerson')
+data.setCell(10, 2, 'pms.test.person.AddPersonTest')
+data.setCell(10, 3, 14437);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'addAllowance')
+data.setCell(11, 2, 'pms.test.department.AllowanceTest')
+data.setCell(11, 3, 14293);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'deletePerson_CP')
+data.setCell(12, 2, 'pms.test.changpinperson.DeletecpPersonTest')
+data.setCell(12, 3, 13557);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'deleteDepartment')
+data.setCell(13, 2, 'pms.test.department.DeleteDepartmentTest')
+data.setCell(13, 3, 13348);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'SearchBySFZ')
+data.setCell(14, 2, 'pms.test.changpinperson.SearchcpPersonTest')
+data.setCell(14, 3, 10644);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'searchPersonBySFZ')
+data.setCell(15, 2, 'pms.test.person.SearchPersonTest')
+data.setCell(15, 3, 10569);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'searchtest')
+data.setCell(16, 2, 'pms.test.department.SearchDepartmentTest')
+data.setCell(16, 3, 7293);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'searchDepart')
+data.setCell(17, 2, 'pms.test.person.SearchDepartmentTest')
+data.setCell(17, 3, 7268);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'searchDepart')
+data.setCell(18, 2, 'pms.test.changpinperson.SearchcpDepartTest')
+data.setCell(18, 3, 7219);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'SearchByXM')
+data.setCell(19, 2, 'pms.test.changpinperson.SearchcpPersonTest')
+data.setCell(19, 3, 6458);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'searchPersonByXM')
+data.setCell(20, 2, 'pms.test.person.SearchPersonTest')
+data.setCell(20, 3, 6418);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'deleteAllowance')
+data.setCell(21, 2, 'pms.test.department.AllowanceTest')
+data.setCell(21, 3, 3336);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'searchtest')
+data.setCell(22, 2, 'pms.test.department.SearchDepartmentTest')
+data.setCell(22, 3, 3221);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'searchtest')
+data.setCell(23, 2, 'pms.test.department.SearchDepartmentTest')
+data.setCell(23, 3, 3163);
+window.suiteTableData['S1']= { tableData: data, tableDiv: 'times-div-S1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-S1">
+              </div> <!-- times-div-S1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-S1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for S1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-S1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-S1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">pms.test.manger.ChangePasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">login</span>
+                <span class="method-start">10839 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ChangePassword_success</span>
+                <span class="method-start">28458 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">90738 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pms.test.manger.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeSuite</span>
+                <span class="method-start">91438 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">login_fail</span>
+                <span class="method-start">100900 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login_success</span>
+                <span class="method-start">118291 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">135113 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pms.test.manger.LogoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeSuite</span>
+                <span class="method-start">135801 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">logout_success</span>
+                <span class="method-start">145315 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">170265 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pms.test.department.AddDepartmentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeSuite</span>
+                <span class="method-start">172370 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">begin</span>
+                <span class="method-start">181797 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addDepartment</span>
+                <span class="method-start">202465 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">234939 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pms.test.department.AllowanceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeSuite</span>
+                <span class="method-start">235631 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">begin</span>
+                <span class="method-start">245153 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addAllowance</span>
+                <span class="method-start">265832 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteAllowance</span>
+                <span class="method-start">280551 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">283887 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pms.test.department.SearchDepartmentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeSuite</span>
+                <span class="method-start">284575 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">begin</span>
+                <span class="method-start">294048 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">searchtest(城建)</span>
+                <span class="method-start">314652 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchtest(城 建)</span>
+                <span class="method-start">321945 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchtest(*城建)</span>
+                <span class="method-start">325166 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">328329 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pms.test.department.DeleteDepartmentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeSuite</span>
+                <span class="method-start">329038 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">begin</span>
+                <span class="method-start">338584 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">deleteDepartment</span>
+                <span class="method-start">359171 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">372519 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pms.test.person.AddPersonTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeSuite</span>
+                <span class="method-start">374231 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">login</span>
+                <span class="method-start">383674 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addPerson</span>
+                <span class="method-start">404300 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">419154 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pms.test.person.EditKaoheTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeSuite</span>
+                <span class="method-start">419850 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">login</span>
+                <span class="method-start">429423 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addKaohe</span>
+                <span class="method-start">450169 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">479096 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pms.test.person.EditStudyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeSuite</span>
+                <span class="method-start">479819 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">login</span>
+                <span class="method-start">489329 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addXLXX</span>
+                <span class="method-start">510009 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">557850 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pms.test.person.SearchPersonTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeSuite</span>
+                <span class="method-start">558592 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">login</span>
+                <span class="method-start">568020 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">searchPersonBySFZ</span>
+                <span class="method-start">588874 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchPersonByXM</span>
+                <span class="method-start">599444 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">605863 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pms.test.person.SearchDepartmentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeSuite</span>
+                <span class="method-start">606549 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">login</span>
+                <span class="method-start">616016 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">searchDepart</span>
+                <span class="method-start">636682 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">643950 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pms.test.person.DeletePersonTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeSuite</span>
+                <span class="method-start">644624 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">login</span>
+                <span class="method-start">654074 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">deletePerson</span>
+                <span class="method-start">674750 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">706463 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pms.test.changpinperson.AddcpPersonTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeSuite</span>
+                <span class="method-start">709105 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">begin</span>
+                <span class="method-start">718487 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addPerson_CP</span>
+                <span class="method-start">739020 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">774672 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pms.test.changpinperson.SearchcpDepartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeSuite</span>
+                <span class="method-start">775409 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">begin</span>
+                <span class="method-start">784976 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">searchDepart</span>
+                <span class="method-start">807504 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">814723 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pms.test.changpinperson.SearchcpPersonTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeSuite</span>
+                <span class="method-start">815422 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">begin</span>
+                <span class="method-start">824917 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">SearchBySFZ</span>
+                <span class="method-start">846877 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchByXM</span>
+                <span class="method-start">857522 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">863980 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pms.test.changpinperson.DeletecpPersonTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeSuite</span>
+                <span class="method-start">864681 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">begin</span>
+                <span class="method-start">874180 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">deletePerson_CP</span>
+                <span class="method-start">895637 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">909194 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pms.test.reportcenter.DownloadTableTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeSuite</span>
+                <span class="method-start">916650 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">begin</span>
+                <span class="method-start">926124 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">downloadTable</span>
+                <span class="method-start">946732 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">979862 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

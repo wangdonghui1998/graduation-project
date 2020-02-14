@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="manger"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="24.807">
+  <properties />
+  
+  
+            <testcase name="logout_success" time="24.807" classname="pms.test.manger.LogoutTest" />
+      
+</testsuite>

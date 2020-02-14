@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="person"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="28.850">
+  <properties />
+  
+  
+            <testcase name="addKaohe" time="28.850" classname="pms.test.person.EditKaoheTest" />
+      
+</testsuite>

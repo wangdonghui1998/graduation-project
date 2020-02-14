@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="person"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="16.964">
+  <properties />
+  
+  
+            <testcase name="searchPersonBySFZ" time="10.533" classname="pms.test.person.SearchPersonTest" />
+                <testcase name="searchPersonByXM" time="6.431" classname="pms.test.person.SearchPersonTest" />
+      
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="department"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="13.672">
+  <properties />
+  
+  
+            <testcase name="searchtest" time="7.288" classname="pms.test.department.SearchDepartmentTest" />
+                <testcase name="searchtest" time="3.183" classname="pms.test.department.SearchDepartmentTest" />
+                <testcase name="searchtest" time="3.201" classname="pms.test.department.SearchDepartmentTest" />
+      
+</testsuite>

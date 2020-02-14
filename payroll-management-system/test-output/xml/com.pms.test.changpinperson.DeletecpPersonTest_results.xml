@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="changpin-person"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="13.462">
+  <properties />
+  
+  
+            <testcase name="deletePerson_CP" time="13.462" classname="com.pms.test.changpinperson.DeletecpPersonTest" />
+      
+</testsuite>

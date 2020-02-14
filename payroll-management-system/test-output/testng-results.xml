@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="22" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-02-14T11:46:20Z" name="S1" finished-at="2020-02-14T12:02:40Z" duration-ms="980577">
+    <groups>
+    </groups>
+    <test started-at="2020-02-14T11:46:20Z" name="manger" finished-at="2020-02-14T11:49:11Z" duration-ms="170959">
+      <class name="pms.test.manger.LoginTest">
+        <test-method is-config="true" signature="doBeforeSuite()[pri:0, instance:pms.test.manger.LoginTest@a2431d0]" started-at="2020-02-14T11:47:51Z" name="doBeforeSuite" finished-at="2020-02-14T11:48:01Z" duration-ms="9462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeSuite -->
+        <test-method signature="login_fail()[pri:0, instance:pms.test.manger.LoginTest@a2431d0]" started-at="2020-02-14T11:48:01Z" name="login_fail" finished-at="2020-02-14T11:48:18Z" duration-ms="17390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_fail -->
+        <test-method signature="login_success()[pri:0, instance:pms.test.manger.LoginTest@a2431d0]" started-at="2020-02-14T11:48:18Z" name="login_success" finished-at="2020-02-14T11:48:35Z" duration-ms="16822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_success -->
+        <test-method is-config="true" signature="doAfterMethod()[pri:0, instance:pms.test.manger.LoginTest@a2431d0]" started-at="2020-02-14T11:48:35Z" name="doAfterMethod" finished-at="2020-02-14T11:48:35Z" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- pms.test.manger.LoginTest -->
+      <class name="pms.test.manger.LogoutTest">
+        <test-method is-config="true" signature="doBeforeSuite()[pri:0, instance:pms.test.manger.LogoutTest@1cbb87f3]" started-at="2020-02-14T11:48:35Z" name="doBeforeSuite" finished-at="2020-02-14T11:48:45Z" duration-ms="9513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeSuite -->
+        <test-method signature="logout_success()[pri:0, instance:pms.test.manger.LogoutTest@1cbb87f3]" started-at="2020-02-14T11:48:45Z" name="logout_success" finished-at="2020-02-14T11:49:10Z" duration-ms="24950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout_success -->
+        <test-method is-config="true" signature="doAfterMethod()[pri:0, instance:pms.test.manger.LogoutTest@1cbb87f3]" started-at="2020-02-14T11:49:10Z" name="doAfterMethod" finished-at="2020-02-14T11:49:11Z" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- pms.test.manger.LogoutTest -->
+      <class name="pms.test.manger.ChangePasswordTest">
+        <test-method is-config="true" signature="doBeforeSuite()[pri:0, instance:pms.test.manger.ChangePasswordTest@31e5415e]" started-at="2020-02-14T11:46:20Z" name="doBeforeSuite" finished-at="2020-02-14T11:46:30Z" duration-ms="10839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeSuite -->
+        <test-method is-config="true" signature="login()[pri:0, instance:pms.test.manger.ChangePasswordTest@31e5415e]" started-at="2020-02-14T11:46:30Z" name="login" finished-at="2020-02-14T11:46:48Z" duration-ms="17615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="ChangePassword_success()[pri:0, instance:pms.test.manger.ChangePasswordTest@31e5415e]" started-at="2020-02-14T11:46:48Z" name="ChangePassword_success" finished-at="2020-02-14T11:47:50Z" duration-ms="62279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangePassword_success -->
+        <test-method is-config="true" signature="doAfterMethod()[pri:0, instance:pms.test.manger.ChangePasswordTest@31e5415e]" started-at="2020-02-14T11:47:50Z" name="doAfterMethod" finished-at="2020-02-14T11:47:51Z" duration-ms="697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- pms.test.manger.ChangePasswordTest -->
+    </test> <!-- manger -->
+    <test started-at="2020-02-14T11:49:12Z" name="department" finished-at="2020-02-14T11:52:33Z" duration-ms="200844">
+      <class name="pms.test.department.AllowanceTest">
+        <test-method is-config="true" signature="doBeforeSuite()[pri:0, instance:pms.test.department.AllowanceTest@7e5afaa6]" started-at="2020-02-14T11:50:15Z" name="doBeforeSuite" finished-at="2020-02-14T11:50:25Z" duration-ms="9522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeSuite -->
+        <test-method is-config="true" signature="begin()[pri:0, instance:pms.test.department.AllowanceTest@7e5afaa6]" started-at="2020-02-14T11:50:25Z" name="begin" finished-at="2020-02-14T11:50:45Z" duration-ms="20678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- begin -->
+        <test-method signature="addAllowance()[pri:0, instance:pms.test.department.AllowanceTest@7e5afaa6]" started-at="2020-02-14T11:50:45Z" name="addAllowance" finished-at="2020-02-14T11:51:00Z" duration-ms="14293" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchFrameException">
+            <message>
+              <![CDATA[No frame element found by name or id layui-layer-iframe1
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'LAPTOP-SLURSDT2', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchFrameException: No frame element found by name or id layui-layer-iframe1
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'LAPTOP-SLURSDT2', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: unknown
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:925)
+at com.pms.core.WebDriverEngine.enterFrame(WebDriverEngine.java:59)
+at pms.test.department.AllowanceTest.addAllowance(Unknown Source)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchFrameException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAllowance -->
+        <test-method signature="deleteAllowance()[pri:0, instance:pms.test.department.AllowanceTest@7e5afaa6]" started-at="2020-02-14T11:51:00Z" name="deleteAllowance" finished-at="2020-02-14T11:51:04Z" duration-ms="3336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllowance -->
+        <test-method is-config="true" signature="doAfterMethod()[pri:0, instance:pms.test.department.AllowanceTest@7e5afaa6]" started-at="2020-02-14T11:51:04Z" name="doAfterMethod" finished-at="2020-02-14T11:51:04Z" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- pms.test.department.AllowanceTest -->
+      <class name="pms.test.department.DeleteDepartmentTest">
+        <test-method is-config="true" signature="doBeforeSuite()[pri:0, instance:pms.test.department.DeleteDepartmentTest@28f3b248]" started-at="2020-02-14T11:51:49Z" name="doBeforeSuite" finished-at="2020-02-14T11:51:58Z" duration-ms="9546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeSuite -->
+        <test-method is-config="true" signature="begin()[pri:0, instance:pms.test.department.DeleteDepartmentTest@28f3b248]" started-at="2020-02-14T11:51:58Z" name="begin" finished-at="2020-02-14T11:52:19Z" duration-ms="20586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- begin -->
+        <test-method signature="deleteDepartment()[pri:0, instance:pms.test.department.DeleteDepartmentTest@28f3b248]" started-at="2020-02-14T11:52:19Z" name="deleteDepartment" finished-at="2020-02-14T11:52:32Z" duration-ms="13348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteDepartment -->
+        <test-method is-config="true" signature="doAfterMethod()[pri:0, instance:pms.test.department.DeleteDepartmentTest@28f3b248]" started-at="2020-02-14T11:52:32Z" name="doAfterMethod" finished-at="2020-02-14T11:52:33Z" duration-ms="692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- pms.test.department.DeleteDepartmentTest -->
+      <class name="pms.test.department.SearchDepartmentTest">
+        <test-method is-config="true" signature="doBeforeSuite()[pri:0, instance:pms.test.department.SearchDepartmentTest@63a12c68]" started-at="2020-02-14T11:51:04Z" name="doBeforeSuite" finished-at="2020-02-14T11:51:14Z" duration-ms="9473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeSuite -->
+        <test-method is-config="true" signature="begin()[pri:0, instance:pms.test.department.SearchDepartmentTest@63a12c68]" started-at="2020-02-14T11:51:14Z" name="begin" finished-at="2020-02-14T11:51:34Z" duration-ms="20595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- begin -->
+        <test-method signature="searchtest(java.lang.String)[pri:0, instance:pms.test.department.SearchDepartmentTest@63a12c68]" started-at="2020-02-14T11:51:34Z" name="searchtest" data-provider="searchDepartment" finished-at="2020-02-14T11:51:42Z" duration-ms="7293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[城建]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchtest -->
+        <test-method signature="searchtest(java.lang.String)[pri:0, instance:pms.test.department.SearchDepartmentTest@63a12c68]" started-at="2020-02-14T11:51:42Z" name="searchtest" data-provider="searchDepartment" finished-at="2020-02-14T11:51:45Z" duration-ms="3221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[城 建]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchtest -->
+        <test-method signature="searchtest(java.lang.String)[pri:0, instance:pms.test.department.SearchDepartmentTest@63a12c68]" started-at="2020-02-14T11:51:45Z" name="searchtest" data-provider="searchDepartment" finished-at="2020-02-14T11:51:48Z" duration-ms="3163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[*城建]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchtest -->
+        <test-method is-config="true" signature="doAfterMethod()[pri:0, instance:pms.test.department.SearchDepartmentTest@63a12c68]" started-at="2020-02-14T11:51:48Z" name="doAfterMethod" finished-at="2020-02-14T11:51:49Z" duration-ms="707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- pms.test.department.SearchDepartmentTest -->
+      <class name="pms.test.department.AddDepartmentTest">
+        <test-method is-config="true" signature="doBeforeSuite()[pri:0, instance:pms.test.department.AddDepartmentTest@483f6d77]" started-at="2020-02-14T11:49:12Z" name="doBeforeSuite" finished-at="2020-02-14T11:49:21Z" duration-ms="9427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeSuite -->
+        <test-method is-config="true" signature="begin()[pri:0, instance:pms.test.department.AddDepartmentTest@483f6d77]" started-at="2020-02-14T11:49:21Z" name="begin" finished-at="2020-02-14T11:49:42Z" duration-ms="20667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- begin -->
+        <test-method signature="addDepartment()[pri:0, instance:pms.test.department.AddDepartmentTest@483f6d77]" started-at="2020-02-14T11:49:42Z" name="addDepartment" finished-at="2020-02-14T11:50:15Z" duration-ms="32474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addDepartment -->
+        <test-method is-config="true" signature="doAfterMethod()[pri:0, instance:pms.test.department.AddDepartmentTest@483f6d77]" started-at="2020-02-14T11:50:15Z" name="doAfterMethod" finished-at="2020-02-14T11:50:15Z" duration-ms="691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- pms.test.department.AddDepartmentTest -->
+    </test> <!-- department -->
+    <test started-at="2020-02-14T11:52:34Z" name="person" finished-at="2020-02-14T11:58:07Z" duration-ms="332863">
+      <class name="pms.test.person.SearchDepartmentTest">
+        <test-method is-config="true" signature="doBeforeSuite()[pri:0, instance:pms.test.person.SearchDepartmentTest@53fdffa1]" started-at="2020-02-14T11:56:26Z" name="doBeforeSuite" finished-at="2020-02-14T11:56:36Z" duration-ms="9467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeSuite -->
+        <test-method is-config="true" signature="login()[pri:0, instance:pms.test.person.SearchDepartmentTest@53fdffa1]" started-at="2020-02-14T11:56:36Z" name="login" finished-at="2020-02-14T11:56:56Z" duration-ms="20666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="searchDepart()[pri:0, instance:pms.test.person.SearchDepartmentTest@53fdffa1]" started-at="2020-02-14T11:56:56Z" name="searchDepart" finished-at="2020-02-14T11:57:04Z" duration-ms="7268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDepart -->
+        <test-method is-config="true" signature="doAfterMethod()[pri:0, instance:pms.test.person.SearchDepartmentTest@53fdffa1]" started-at="2020-02-14T11:57:04Z" name="doAfterMethod" finished-at="2020-02-14T11:57:04Z" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- pms.test.person.SearchDepartmentTest -->
+      <class name="pms.test.person.DeletePersonTest">
+        <test-method is-config="true" signature="doBeforeSuite()[pri:0, instance:pms.test.person.DeletePersonTest@5562c41e]" started-at="2020-02-14T11:57:04Z" name="doBeforeSuite" finished-at="2020-02-14T11:57:14Z" duration-ms="9450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeSuite -->
+        <test-method is-config="true" signature="login()[pri:0, instance:pms.test.person.DeletePersonTest@5562c41e]" started-at="2020-02-14T11:57:14Z" name="login" finished-at="2020-02-14T11:57:34Z" duration-ms="20675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="deletePerson()[pri:0, instance:pms.test.person.DeletePersonTest@5562c41e]" started-at="2020-02-14T11:57:34Z" name="deletePerson" finished-at="2020-02-14T11:58:06Z" duration-ms="31713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePerson -->
+        <test-method is-config="true" signature="doAfterMethod()[pri:0, instance:pms.test.person.DeletePersonTest@5562c41e]" started-at="2020-02-14T11:58:06Z" name="doAfterMethod" finished-at="2020-02-14T11:58:07Z" duration-ms="630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- pms.test.person.DeletePersonTest -->
+      <class name="pms.test.person.EditKaoheTest">
+        <test-method is-config="true" signature="doBeforeSuite()[pri:0, instance:pms.test.person.EditKaoheTest@71def8f8]" started-at="2020-02-14T11:53:19Z" name="doBeforeSuite" finished-at="2020-02-14T11:53:29Z" duration-ms="9573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeSuite -->
+        <test-method is-config="true" signature="login()[pri:0, instance:pms.test.person.EditKaoheTest@71def8f8]" started-at="2020-02-14T11:53:29Z" name="login" finished-at="2020-02-14T11:53:50Z" duration-ms="20745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addKaohe()[pri:0, instance:pms.test.person.EditKaoheTest@71def8f8]" started-at="2020-02-14T11:53:50Z" name="addKaohe" finished-at="2020-02-14T11:54:19Z" duration-ms="28926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addKaohe -->
+        <test-method is-config="true" signature="doAfterMethod()[pri:0, instance:pms.test.person.EditKaoheTest@71def8f8]" started-at="2020-02-14T11:54:19Z" name="doAfterMethod" finished-at="2020-02-14T11:54:19Z" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- pms.test.person.EditKaoheTest -->
+      <class name="pms.test.person.EditStudyTest">
+        <test-method is-config="true" signature="doBeforeSuite()[pri:0, instance:pms.test.person.EditStudyTest@383bfa16]" started-at="2020-02-14T11:54:19Z" name="doBeforeSuite" finished-at="2020-02-14T11:54:29Z" duration-ms="9510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeSuite -->
+        <test-method is-config="true" signature="login()[pri:0, instance:pms.test.person.EditStudyTest@383bfa16]" started-at="2020-02-14T11:54:29Z" name="login" finished-at="2020-02-14T11:54:50Z" duration-ms="20680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addXLXX()[pri:0, instance:pms.test.person.EditStudyTest@383bfa16]" started-at="2020-02-14T11:54:50Z" name="addXLXX" finished-at="2020-02-14T11:55:37Z" duration-ms="47841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addXLXX -->
+        <test-method is-config="true" signature="doAfterMethod()[pri:0, instance:pms.test.person.EditStudyTest@383bfa16]" started-at="2020-02-14T11:55:37Z" name="doAfterMethod" finished-at="2020-02-14T11:55:38Z" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- pms.test.person.EditStudyTest -->
+      <class name="pms.test.person.SearchPersonTest">
+        <test-method is-config="true" signature="doBeforeSuite()[pri:0, instance:pms.test.person.SearchPersonTest@4d465b11]" started-at="2020-02-14T11:55:38Z" name="doBeforeSuite" finished-at="2020-02-14T11:55:48Z" duration-ms="9428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeSuite -->
+        <test-method is-config="true" signature="login()[pri:0, instance:pms.test.person.SearchPersonTest@4d465b11]" started-at="2020-02-14T11:55:48Z" name="login" finished-at="2020-02-14T11:56:09Z" duration-ms="20853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="searchPersonBySFZ()[pri:0, instance:pms.test.person.SearchPersonTest@4d465b11]" started-at="2020-02-14T11:56:09Z" name="searchPersonBySFZ" finished-at="2020-02-14T11:56:19Z" duration-ms="10569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPersonBySFZ -->
+        <test-method signature="searchPersonByXM()[pri:0, instance:pms.test.person.SearchPersonTest@4d465b11]" started-at="2020-02-14T11:56:19Z" name="searchPersonByXM" finished-at="2020-02-14T11:56:25Z" duration-ms="6418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPersonByXM -->
+        <test-method is-config="true" signature="doAfterMethod()[pri:0, instance:pms.test.person.SearchPersonTest@4d465b11]" started-at="2020-02-14T11:56:25Z" name="doAfterMethod" finished-at="2020-02-14T11:56:26Z" duration-ms="685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- pms.test.person.SearchPersonTest -->
+      <class name="pms.test.person.AddPersonTest">
+        <test-method is-config="true" signature="doBeforeSuite()[pri:0, instance:pms.test.person.AddPersonTest@16610890]" started-at="2020-02-14T11:52:34Z" name="doBeforeSuite" finished-at="2020-02-14T11:52:43Z" duration-ms="9443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeSuite -->
+        <test-method is-config="true" signature="login()[pri:0, instance:pms.test.person.AddPersonTest@16610890]" started-at="2020-02-14T11:52:43Z" name="login" finished-at="2020-02-14T11:53:04Z" duration-ms="20626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addPerson()[pri:0, instance:pms.test.person.AddPersonTest@16610890]" started-at="2020-02-14T11:53:04Z" name="addPerson" finished-at="2020-02-14T11:53:18Z" duration-ms="14437" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:787)
+at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:221)
+at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:418)
+at org.openqa.selenium.interactions.Actions.doubleClick(Actions.java:363)
+at com.pms.core.WebDriverEngine.doubleclick(WebDriverEngine.java:93)
+at pms.test.person.AddPersonTest.addPerson(Unknown Source)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPerson -->
+        <test-method is-config="true" signature="doAfterMethod()[pri:0, instance:pms.test.person.AddPersonTest@16610890]" started-at="2020-02-14T11:53:19Z" name="doAfterMethod" finished-at="2020-02-14T11:53:19Z" duration-ms="695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- pms.test.person.AddPersonTest -->
+    </test> <!-- person -->
+    <test started-at="2020-02-14T11:58:09Z" name="changpin-person" finished-at="2020-02-14T12:01:30Z" duration-ms="200793">
+      <class name="pms.test.changpinperson.AddcpPersonTest">
+        <test-method is-config="true" signature="doBeforeSuite()[pri:0, instance:pms.test.changpinperson.AddcpPersonTest@47987356]" started-at="2020-02-14T11:58:09Z" name="doBeforeSuite" finished-at="2020-02-14T11:58:18Z" duration-ms="9382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeSuite -->
+        <test-method is-config="true" signature="begin()[pri:0, instance:pms.test.changpinperson.AddcpPersonTest@47987356]" started-at="2020-02-14T11:58:18Z" name="begin" finished-at="2020-02-14T11:58:39Z" duration-ms="20532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- begin -->
+        <test-method signature="addPerson_CP()[pri:0, instance:pms.test.changpinperson.AddcpPersonTest@47987356]" started-at="2020-02-14T11:58:39Z" name="addPerson_CP" finished-at="2020-02-14T11:59:14Z" duration-ms="35652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPerson_CP -->
+        <test-method is-config="true" signature="doAfterMethod()[pri:0, instance:pms.test.changpinperson.AddcpPersonTest@47987356]" started-at="2020-02-14T11:59:14Z" name="doAfterMethod" finished-at="2020-02-14T11:59:15Z" duration-ms="736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- pms.test.changpinperson.AddcpPersonTest -->
+      <class name="pms.test.changpinperson.DeletecpPersonTest">
+        <test-method is-config="true" signature="doBeforeSuite()[pri:0, instance:pms.test.changpinperson.DeletecpPersonTest@3b6ddd1d]" started-at="2020-02-14T12:00:44Z" name="doBeforeSuite" finished-at="2020-02-14T12:00:54Z" duration-ms="9499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeSuite -->
+        <test-method is-config="true" signature="begin()[pri:0, instance:pms.test.changpinperson.DeletecpPersonTest@3b6ddd1d]" started-at="2020-02-14T12:00:54Z" name="begin" finished-at="2020-02-14T12:01:15Z" duration-ms="21457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- begin -->
+        <test-method signature="deletePerson_CP()[pri:0, instance:pms.test.changpinperson.DeletecpPersonTest@3b6ddd1d]" started-at="2020-02-14T12:01:15Z" name="deletePerson_CP" finished-at="2020-02-14T12:01:29Z" duration-ms="13557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePerson_CP -->
+        <test-method is-config="true" signature="doAfterMethod()[pri:0, instance:pms.test.changpinperson.DeletecpPersonTest@3b6ddd1d]" started-at="2020-02-14T12:01:29Z" name="doAfterMethod" finished-at="2020-02-14T12:01:30Z" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- pms.test.changpinperson.DeletecpPersonTest -->
+      <class name="pms.test.changpinperson.SearchcpPersonTest">
+        <test-method is-config="true" signature="doBeforeSuite()[pri:0, instance:pms.test.changpinperson.SearchcpPersonTest@6283d8b8]" started-at="2020-02-14T11:59:55Z" name="doBeforeSuite" finished-at="2020-02-14T12:00:05Z" duration-ms="9495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeSuite -->
+        <test-method is-config="true" signature="begin()[pri:0, instance:pms.test.changpinperson.SearchcpPersonTest@6283d8b8]" started-at="2020-02-14T12:00:05Z" name="begin" finished-at="2020-02-14T12:00:27Z" duration-ms="21959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- begin -->
+        <test-method signature="SearchBySFZ()[pri:0, instance:pms.test.changpinperson.SearchcpPersonTest@6283d8b8]" started-at="2020-02-14T12:00:27Z" name="SearchBySFZ" finished-at="2020-02-14T12:00:37Z" duration-ms="10644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchBySFZ -->
+        <test-method signature="SearchByXM()[pri:0, instance:pms.test.changpinperson.SearchcpPersonTest@6283d8b8]" started-at="2020-02-14T12:00:37Z" name="SearchByXM" finished-at="2020-02-14T12:00:44Z" duration-ms="6458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchByXM -->
+        <test-method is-config="true" signature="doAfterMethod()[pri:0, instance:pms.test.changpinperson.SearchcpPersonTest@6283d8b8]" started-at="2020-02-14T12:00:44Z" name="doAfterMethod" finished-at="2020-02-14T12:00:44Z" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- pms.test.changpinperson.SearchcpPersonTest -->
+      <class name="pms.test.changpinperson.SearchcpDepartTest">
+        <test-method is-config="true" signature="doBeforeSuite()[pri:0, instance:pms.test.changpinperson.SearchcpDepartTest@22ef9844]" started-at="2020-02-14T11:59:15Z" name="doBeforeSuite" finished-at="2020-02-14T11:59:25Z" duration-ms="9567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeSuite -->
+        <test-method is-config="true" signature="begin()[pri:0, instance:pms.test.changpinperson.SearchcpDepartTest@22ef9844]" started-at="2020-02-14T11:59:25Z" name="begin" finished-at="2020-02-14T11:59:47Z" duration-ms="22528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- begin -->
+        <test-method signature="searchDepart()[pri:0, instance:pms.test.changpinperson.SearchcpDepartTest@22ef9844]" started-at="2020-02-14T11:59:47Z" name="searchDepart" finished-at="2020-02-14T11:59:54Z" duration-ms="7219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDepart -->
+        <test-method is-config="true" signature="doAfterMethod()[pri:0, instance:pms.test.changpinperson.SearchcpDepartTest@22ef9844]" started-at="2020-02-14T11:59:54Z" name="doAfterMethod" finished-at="2020-02-14T11:59:55Z" duration-ms="697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- pms.test.changpinperson.SearchcpDepartTest -->
+    </test> <!-- changpin-person -->
+    <test started-at="2020-02-14T12:01:36Z" name="reportcenter" finished-at="2020-02-14T12:02:40Z" duration-ms="63922">
+      <class name="pms.test.reportcenter.DownloadTableTest">
+        <test-method is-config="true" signature="doBeforeSuite()[pri:0, instance:pms.test.reportcenter.DownloadTableTest@5acf93bb]" started-at="2020-02-14T12:01:36Z" name="doBeforeSuite" finished-at="2020-02-14T12:01:46Z" duration-ms="9474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeSuite -->
+        <test-method is-config="true" signature="begin()[pri:0, instance:pms.test.reportcenter.DownloadTableTest@5acf93bb]" started-at="2020-02-14T12:01:46Z" name="begin" finished-at="2020-02-14T12:02:06Z" duration-ms="20607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- begin -->
+        <test-method signature="downloadTable()[pri:0, instance:pms.test.reportcenter.DownloadTableTest@5acf93bb]" started-at="2020-02-14T12:02:06Z" name="downloadTable" finished-at="2020-02-14T12:02:39Z" duration-ms="33130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadTable -->
+        <test-method is-config="true" signature="doAfterMethod()[pri:0, instance:pms.test.reportcenter.DownloadTableTest@5acf93bb]" started-at="2020-02-14T12:02:39Z" name="doAfterMethod" finished-at="2020-02-14T12:02:40Z" duration-ms="709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- pms.test.reportcenter.DownloadTableTest -->
+    </test> <!-- reportcenter -->
+  </suite> <!-- S1 -->
+</testng-results>
